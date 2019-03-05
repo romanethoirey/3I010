@@ -1,0 +1,3 @@
+#define NMAX 10
+void InitTab(int *tab, int size);
+void PrintTab(int *tab, int size);

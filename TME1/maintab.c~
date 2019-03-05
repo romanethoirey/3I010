@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include "tab.h"
+
+int main(int argc, char **argv){
+  int *tab;
+  tab = (int *)malloc(sizeof(int)*NMAX);
+  InitTab(tab,NMAX);
+  PrintTab(tab,NMAX);
+  return 0;
+}

@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(int argc, char **argv){
+
+  int nbEntier, max, i;
+  nbEntier = argc;
+  max = atoi(argv[1]);
+
+  for(int i = 1; i < nbEntier; i++){
+    
+  }
+}

@@ -1,0 +1,9 @@
+MAKE = make -r
+MAINTAB_SRC = tab.o
+
+all: maintab
+
+maintab: tab.o
+	gcc -o $< $@
+%.o:%.c:
+	gcc -c $< -o $@
